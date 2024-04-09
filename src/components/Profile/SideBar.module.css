@@ -1,0 +1,148 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 233, 233);
+    color: black;
+    width: 12rem;
+    height: 2.2rem;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.compose p{
+    text-align: center;
+    margin: 0.2rem 0.3rem;
+}
+
+.compose:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    color: black;
+    width: 10rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inbox p{
+    text-align: center;
+    margin: 0.2rem 0.3rem;
+}
+
+.inbox span{
+    margin-left: 15px;
+    color: red;
+}
+
+.inbox:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(129, 201, 201);
+}
+
+.sent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    color: black;
+    width: 10rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sent p{
+    text-align: center;
+    margin: 0.2rem 0.3rem;
+}
+
+.sent:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(129, 201, 201);
+}
+
+.other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    color: black;
+    width: 10rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.other p{
+    text-align: center;
+    margin: 0.2rem 0.3rem;
+}
+
+.other:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(138, 240, 240);
+}
+
+@media(max-width:768px){
+
+    .compose{
+        width: 6rem;
+    }
+    .compose p{
+        display: none;
+    }
+
+    .inbox{
+        width: 5rem;
+    }
+
+    .inbox p{
+        display: none;
+    }
+
+    .sent{
+        width: 5rem;
+    }
+
+    .sent p{
+        display: none;
+    }
+
+    .other{
+        width: 5rem;
+    }
+
+    .other p{
+        display: none;
+    }
+}

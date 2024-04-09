@@ -1,0 +1,66 @@
+/* EmailComposer.module.css */
+
+/* Container styles */
+.emailComposerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 540px;
+    text-align: left;
+  }
+
+  .succesfulMsg{
+    color: green;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Input styles */
+  .emailInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Editor styles */
+  .rdwEditorWrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    overflow:visible;
+  }
+  
+  .email-editor-icon {
+    font-size: 16px; /* Adjust the font size to make icons smaller */
+  }
+  
+  /* Button styles */
+  .sendButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .sendButton:hover {
+    background-color: #0056b3;
+  }
+
+  @media(max-width:768px){
+    .emailComposerContainer{
+      max-width: 400px;
+      height:min-content;
+    }
+  }
+
+
+  

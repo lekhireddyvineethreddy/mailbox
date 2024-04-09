@@ -1,0 +1,80 @@
+.messageCon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid gray;
+    margin: 1px;
+    max-width: 900px;
+    margin: 3rem auto;
+    background-color: whitesmoke;
+    border-radius: 0rem 1.5rem 1.5rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.messageCon h1 {
+    padding: 2rem;
+}
+.msgContent{
+    /* padding: 3rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin: 1rem;
+
+}
+.info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    flex: 1;
+}
+
+.date{
+    flex: 1;
+}
+
+.infopic {
+    width: 2rem;
+    height: 2rem;
+}
+.info p {
+    margin-left: 0.5rem;
+}
+
+.messageBox {
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.msgMain {
+    margin: 1rem;
+    width: 98%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    height: 250px;
+}
+
+.backIcon{
+    margin-left: 1.2rem ;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+@media(max-width:768px){
+    .messageCon{
+        height: 400px;
+    }
+    .msgMain{
+        height: 300px;
+    }
+    .info{
+        margin-left: 0;
+    }
+}

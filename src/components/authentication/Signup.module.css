@@ -1,0 +1,42 @@
+.card{
+    background-color: cornflowerblue;
+    max-width: 30rem;
+    text-align: left;
+    padding: 1.5rem;
+    margin: 4rem auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card h3{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle{
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+.toggle button{
+    border: none;
+    color: azure;
+    font-weight: bold;
+    background: none;
+    font-size: 1.2rem;
+}
+
+@media(max-width : 768px){
+    .card{
+        margin: 8rem 4rem 8rem 4rem;
+    }
+}
